@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "retrogames",
+  "info": {
+    "singularName": "retrogame",
+    "pluralName": "retrogames",
+    "displayName": "retrogame"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "gameimage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "rating": {
+      "type": "integer"
+    }
+  }
+}
